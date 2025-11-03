@@ -54,8 +54,8 @@ Stream API/
         └── streamObject.java
 ```
 ## 🧠 Concepts Covered
-✅ Creating streams from collections and arrays
-✅ Intermediate operations: filter(), map(), sorted(), distinct()
-✅ Terminal operations: forEach(), collect(), reduce(), count()
-✅ Using Stream.of() and List.of()
-✅ Handling objects and custom classes with streams
+1. Creating streams from collections and arrays
+2. Intermediate operations: filter(), map(), sorted(), distinct()
+3. Terminal operations: forEach(), collect(), reduce(), count()
+4. Using Stream.of() and List.of()
+5. Handling objects and custom classes with streams
