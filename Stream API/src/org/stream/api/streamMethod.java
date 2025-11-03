@@ -16,6 +16,9 @@ public class streamMethod {
 		List<String> newNames = names.stream().filter(e -> e.startsWith("s")).collect(Collectors.toList());
 		System.out.println(newNames);
 		
+		newNames.stream().forEach(System.out::println);
+
+		
 		// traverse a number
 		List<Integer> numbers = List.of(2, 3, 4, 5, 6, 7, 8, 9);
 		numbers.stream().forEach(e -> {
@@ -30,3 +33,4 @@ public class streamMethod {
 		
 	}
 }
+
