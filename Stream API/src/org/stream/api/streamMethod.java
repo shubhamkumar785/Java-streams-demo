@@ -30,7 +30,14 @@ public class streamMethod {
 		List<Integer> numbers1 = List.of(2, 3, 4, 5, 6, 7, 8, 9);
 		List<Integer> newNumber2 = numbers1.stream().map(i -> i * i).collect(Collectors.toList());
 		System.out.println(newNumber2);
+
+
+				
+		// to sort a number
+		List<Integer> numbers2 = List.of(78, 34, 56, 43, 23, 67);
+		numbers2.stream().sorted().forEach(System.out::println);
 		
 	}
 }
+
 
