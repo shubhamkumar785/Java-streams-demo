@@ -34,8 +34,9 @@ public class streamMain1 {
         List<Integer> newList1 = list1.stream().filter(i -> i % 2 == 0).collect(Collectors.toList());
         System.out.println(newList);
 
-        List<Integer> newList2 = list1.stream().filter(i -> i> 10).collect(Collectors.toList());
+        List<Integer> newList2 = list1.stream().filter(i -> i> 20).collect(Collectors.toList());
         System.out.println(newList2);
     }
 }
+
 
