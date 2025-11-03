@@ -11,16 +11,22 @@ public class streamMethod {
 		
 		// map(function) - each element operation perform
 		
-		
+        // print a name with starting with "s
 		List<String> names = List.of("shubham", "subhanshu", "Abhinav");
 		List<String> newNames = names.stream().filter(e -> e.startsWith("s")).collect(Collectors.toList());
 		System.out.println(newNames);
-
 		
+		// traverse a number
 		List<Integer> numbers = List.of(2, 3, 4, 5, 6, 7, 8, 9);
-		List<Integer> newNumber = numbers.stream().map(i -> i * i).collect(Collectors.toList());
-		System.out.println(newNumber);
+		numbers.stream().forEach(e -> {
+			System.out.println(e);
+		});
+		
+		
+		// print a square of number
+		List<Integer> numbers1 = List.of(2, 3, 4, 5, 6, 7, 8, 9);
+		List<Integer> newNumber2 = numbers1.stream().map(i -> i * i).collect(Collectors.toList());
+		System.out.println(newNumber2);
 		
 	}
 }
-
